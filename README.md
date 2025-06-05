@@ -52,9 +52,9 @@ This uses a special test configuration to exit QEMU cleanly using `isa-debug-exi
 
 Custom build configuration is set in `config.toml`.
 This project uses several dependencies, including:
-- bootloader with physical memory mapping
-- spin, volatile, x86_64 for low-level system programming
-- uart_16550, pic8259, pc-keyboard for hardware interfaces
-- lazy_static, crossbeam-queue, conquer-once, and futures-util for safe concurrency and async primitives
+- `bootloader` with physical memory mapping
+- `spin`, `volatile`, `x86_64` for low-level system programming
+- `uart_16550`, `pic8259`, `pc-keyboard` for hardware interfaces
+- `lazy_static`, `crossbeam-queue`, `conquer-once`, and `futures-util` for safe concurrency and async primitives
 
 Full dependency list is available in `Cargo.toml`.
